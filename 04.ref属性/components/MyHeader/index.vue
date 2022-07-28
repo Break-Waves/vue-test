@@ -1,14 +1,10 @@
 <template>
-  <div>
-    <h1 class="header">Header</h1>
-    <p>{{ name }},{{ age }},{{ sex }}</p>
-  </div>
+  <h1 class="header">Header</h1>
 </template>
 
 <script>
 export default {
   name: "MyHeader",
-  props: ["name", "age", "sex"],
 };
 </script>
 
